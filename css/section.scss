@@ -1,0 +1,86 @@
+/*Section CSS*/
+
+/*Variables*/
+$green: darken(#00751F, 8%);
+$red: darken(#A62929, 10%);
+$gray: #6C6C6C;
+$darkgray: #2B2B2B;
+$blue: #1B8E8E;
+$white: #FFFFFF;
+$bar: #F2F2F2;
+
+
+/*Sections*/
+
+/*Section 1*/
+#section_1 {
+  p {
+    color: white;
+  }
+  height: 100vh;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-attachment: fixed;
+  background-image: url(../img/forest10.jpg);
+}
+
+/*Section 2*/
+#section_2 {
+  height: 100vh;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}
+
+/*Section 3*/
+#section_3 {
+  p {
+    color: white;
+  }
+  height: 100vh;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-attachment: fixed;
+  background-image: url(../img/forest3.jpg);
+}
+
+/*Section 4*/
+#section_4 {
+  height: 100vh;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}
+
+/*Section 5*/
+#section_5 {
+  p {
+    color: white;
+  }
+  height: 100vh;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-attachment: fixed;
+  background-image: url(../img/forest9.jpg);
+}

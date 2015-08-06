@@ -1,0 +1,31 @@
+/*Custom CSS*/
+/*Mixins*/
+/*Variables*/
+/*Body Styles*/
+body {
+  font-family: "Germania One", "Quintessential", sans-serif;
+  background-image: url("../img/tree_bark.png"); }
+  body a {
+    transition: all 450ms ease-in-out;
+    color: #004c14;
+    text-decoration: none; }
+    body a:hover {
+      transition: all 450ms ease-in-out;
+      color: #7d1f1f; }
+  body ul {
+    list-style-type: none; }
+
+/*Header Styles*/
+h1 {
+  color: #7d1f1f;
+  text-shadow: 2px 3px 1px #020101; }
+
+h2 {
+  color: #004c14; }
+
+h3 {
+  color: #004c14; }
+
+/*Custom Styles*/
+
+/*# sourceMappingURL=custom.css.map */

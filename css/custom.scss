@@ -1,0 +1,48 @@
+/*Custom CSS*/
+
+/*Mixins*/
+@mixin fade {
+  transition: all 450ms ease-in-out;
+}
+
+/*Variables*/
+$green: darken(#00751F, 8%);
+$red: darken(#A62929, 10%);
+$gray: #6C6C6C;
+$darkgray: #2B2B2B;
+$blue: #1B8E8E;
+$white: #FFFFFF;
+$bar: #F2F2F2;
+
+/*Body Styles*/
+body {
+	font-family: "Germania One", "Quintessential", sans-serif;
+	background-image: url('../img/tree_bark.png');
+	a {
+		@include fade;
+		color: $green;
+		text-decoration: none;
+
+		&:hover {
+			@include fade;
+			color: $red;
+		}
+	}
+	ul {
+		list-style-type: none;
+	}
+}
+
+/*Header Styles*/
+h1 {
+  color: $red;
+  text-shadow: 2px 3px 1px darken($red, 30%);
+}
+h2 {
+  color: $green;
+}
+h3 {
+  color: $green;
+}
+
+/*Custom Styles*/
